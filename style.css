@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2C2B3D;
+    width: 1200px;
+    margin: 200px auto 0 auto;
+    padding-top: 50px;
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+    
+ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ a{
+    color: #FFF;
+    text-align: center;
+    font-family: "JetBrains Mono";
+    text-decoration: none;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+
+h1{
+color: #FFF;
+text-align: center;
+font-family: "JetBrains Mono";
+font-size: 36px;
+line-height: 40px; 
+}
+
+span{
+    color: #00BFA6;
+}
+
+section p{
+    margin: 40px 0;
+    color: #C2C2C2;
+    text-align: center;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: "JetBrains Mono";
+    font-size: 14px;
+    font-weight: 500;
+    width: 50%;
+    border-top: solid #00BFA6;;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    font-weight: bold;
+}
+
+#Bolinhas{
+    position: fixed;
+  bottom: 155px;
+  left: 370px;
+}
